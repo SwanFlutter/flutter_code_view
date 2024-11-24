@@ -23,7 +23,7 @@ dependencies:
 dependencies:
   flutter_code_view:
     git:
-      url: https://github.com/yourusername/flutter_code_view.git
+      url: https://github.com/SwanFlutter/flutter_code_view.git
 ```
 
 ## Usage
