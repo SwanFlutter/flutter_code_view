@@ -78,6 +78,7 @@ ElevatedButton(
 ),
 ''',
     themeType: ThemeType.dark,
+    language : Languages.dart
     autoDetection: true,
     height: 300,
     width: size.width * 0.35,
