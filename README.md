@@ -38,6 +38,7 @@ import 'package:flutter_code_view/flutter_code_view.dart';
 
 - Here is a simple example of how to use FlutterCodeView in your Flutter app:
 
+![Screenshot 2024-11-23 223843](https://github.com/user-attachments/assets/3a556117-9708-4fd3-b770-f47f88a36489)
 
 
 ```dart
