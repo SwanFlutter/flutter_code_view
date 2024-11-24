@@ -1,8 +1,8 @@
 library flutter_code_view;
 
+import 'package:base_cod_view/base_code_view.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_code_view/src/theme_map.dart';
-import 'package:highlight/highlight.dart';
 
 export 'package:flutter_code_view/src/theme_map.dart';
 

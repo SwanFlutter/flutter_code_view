@@ -10,8 +10,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  highlight:
-    path: /Android/Pakege/highlight
+  base_cod_view: ^0.0.1
+    
 
 dev_dependencies:
   flutter_test:
