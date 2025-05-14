@@ -5,7 +5,9 @@
 /// It allows for customization of appearance, including colors, fonts, and layout.
 library flutter_code_view;
 
-import 'package:base_cod_view/base_code_view.dart';
+//import 'package:base_cod_view/base_code_view.dart';
+import 'package:base_cod_view/base_code_view.dart' show Highlight, Node;
+import 'package:base_cod_view/languages/language/languages.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_code_view/src/theme_map.dart';
 
