@@ -15,7 +15,7 @@ To use this package, add `flutter_code_view` as a dependency in your `pubspec.ya
 
 ```yaml
 dependencies:
-  flutter_code_view: ^0.0.1
+  flutter_code_view: ^0.0.2
 
 ```
 

@@ -1,4 +1,7 @@
 // GENERATED CODE - DO NOT MODIFY BY HAND
+/// This file contains theme definitions and mappings for the FlutterCodeView widget.
+library;
+
 import 'themes/a11y_dark.dart';
 import 'themes/a11y_light.dart';
 import 'themes/agate.dart';
@@ -182,6 +185,10 @@ export 'themes/xcode.dart';
 export 'themes/xt256.dart';
 export 'themes/zenburn.dart';
 
+/// Enum representing the available syntax highlighting themes.
+///
+/// Each value corresponds to a specific theme that can be used for syntax highlighting
+/// in the FlutterCodeView widget.
 enum ThemeType {
   a11yDark,
   a11yLight,
@@ -275,6 +282,10 @@ enum ThemeType {
   zenburn,
 }
 
+/// Map of ThemeType to theme definitions.
+///
+/// This map associates each ThemeType enum value with its corresponding theme definition.
+/// The theme definitions are used to style the syntax highlighting in the FlutterCodeView widget.
 const themeMap = {
   ThemeType.a11yDark: a11yDarkTheme,
   ThemeType.a11yLight: a11yLightTheme,

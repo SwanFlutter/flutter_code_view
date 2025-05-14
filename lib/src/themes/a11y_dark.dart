@@ -2,6 +2,11 @@
 
 import 'package:flutter/painting.dart';
 
+/// A11y Dark theme for syntax highlighting.
+///
+/// This theme is designed for accessibility with a dark background and
+/// high contrast colors to improve readability for users with visual impairments.
+/// It follows the a11y (accessibility) guidelines for color contrast.
 const a11yDarkTheme = {
   'comment': TextStyle(color: Color(0xffd4d0ab)),
   'quote': TextStyle(color: Color(0xffd4d0ab)),
