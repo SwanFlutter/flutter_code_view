@@ -1,6 +1,6 @@
 name: flutter_code_view
 description: "A Flutter package for displaying and highlighting code snippets with syntax highlighting and customizable themes."
-version: 0.0.2
+version: 0.0.4
 homepage: "https://github.com/SwanFlutter/flutter_code_view.git"
 
 environment:
@@ -10,7 +10,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  base_cod_view: ^0.0.1
+  base_cod_view: ^0.0.3
     
 
 dev_dependencies:

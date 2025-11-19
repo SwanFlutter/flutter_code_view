@@ -2,7 +2,7 @@
 
 import 'package:flutter/painting.dart';
 
-const brownPaperTheme = {
+const Map<String, TextStyle> brownPaperTheme = {
   'root':
       TextStyle(backgroundColor: Color(0xffb7a68e), color: Color(0xff363c69)),
   'keyword': TextStyle(color: Color(0xff005599), fontWeight: FontWeight.bold),

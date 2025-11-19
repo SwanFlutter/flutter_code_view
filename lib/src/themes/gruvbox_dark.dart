@@ -2,7 +2,7 @@
 
 import 'package:flutter/painting.dart';
 
-const gruvboxDarkTheme = {
+const Map<String, TextStyle> gruvboxDarkTheme = {
   'root':
       TextStyle(backgroundColor: Color(0xff282828), color: Color(0xffebdbb2)),
   'subst': TextStyle(color: Color(0xffebdbb2)),

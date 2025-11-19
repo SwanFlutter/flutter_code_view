@@ -2,7 +2,7 @@
 
 import 'package:flutter/painting.dart';
 
-const nightOwlTheme = {
+const Map<String, TextStyle> nightOwlTheme = {
   'root':
       TextStyle(backgroundColor: Color(0xFF011627), color: Color(0xFFD6DEEB)),
   'keyword': TextStyle(color: Color(0xFFC792EA), fontStyle: FontStyle.italic),

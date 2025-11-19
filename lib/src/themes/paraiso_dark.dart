@@ -2,7 +2,7 @@
 
 import 'package:flutter/painting.dart';
 
-const paraisoDarkTheme = {
+const Map<String, TextStyle> paraisoDarkTheme = {
   'comment': TextStyle(color: Color(0xff8d8687)),
   'quote': TextStyle(color: Color(0xff8d8687)),
   'variable': TextStyle(color: Color(0xffef6155)),

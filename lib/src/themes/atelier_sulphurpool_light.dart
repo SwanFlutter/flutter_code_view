@@ -2,7 +2,7 @@
 
 import 'package:flutter/painting.dart';
 
-const atelierSulphurpoolLightTheme = {
+const Map<String, TextStyle> atelierSulphurpoolLightTheme = {
   'comment': TextStyle(color: Color(0xff6b7394)),
   'quote': TextStyle(color: Color(0xff6b7394)),
   'variable': TextStyle(color: Color(0xffc94922)),

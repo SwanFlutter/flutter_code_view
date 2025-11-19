@@ -2,7 +2,7 @@
 
 import 'package:flutter/painting.dart';
 
-const isblEditorLightTheme = {
+const Map<String, TextStyle> isblEditorLightTheme = {
   'root':
       TextStyle(backgroundColor: Color(0xffffffff), color: Color(0xff000000)),
   'subst': TextStyle(color: Color(0xff000000)),

@@ -2,7 +2,7 @@
 
 import 'package:flutter/painting.dart';
 
-const kimbieLightTheme = {
+const Map<String, TextStyle> kimbieLightTheme = {
   'comment': TextStyle(color: Color(0xffa57a4c)),
   'quote': TextStyle(color: Color(0xffa57a4c)),
   'variable': TextStyle(color: Color(0xffdc3958)),

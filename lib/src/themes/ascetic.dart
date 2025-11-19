@@ -2,7 +2,7 @@
 
 import 'package:flutter/painting.dart';
 
-const asceticTheme = {
+const Map<String, TextStyle> asceticTheme = {
   'root':
       TextStyle(backgroundColor: Color(0xffffffff), color: Color(0xff000000)),
   'string': TextStyle(color: Color(0xff888888)),

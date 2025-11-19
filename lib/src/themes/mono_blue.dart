@@ -2,7 +2,7 @@
 
 import 'package:flutter/painting.dart';
 
-const monoBlueTheme = {
+const Map<String, TextStyle> monoBlueTheme = {
   'root':
       TextStyle(backgroundColor: Color(0xffeaeef3), color: Color(0xff00193a)),
   'keyword': TextStyle(fontWeight: FontWeight.bold),

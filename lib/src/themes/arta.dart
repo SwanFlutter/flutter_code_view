@@ -2,7 +2,7 @@
 
 import 'package:flutter/painting.dart';
 
-const artaTheme = {
+const Map<String, TextStyle> artaTheme = {
   'root':
       TextStyle(backgroundColor: Color(0xff222222), color: Color(0xffaaaaaa)),
   'subst': TextStyle(color: Color(0xffaaaaaa)),

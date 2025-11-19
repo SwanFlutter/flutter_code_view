@@ -2,7 +2,7 @@
 
 import 'package:flutter/painting.dart';
 
-const schoolBookTheme = {
+const Map<String, TextStyle> schoolBookTheme = {
   'root':
       TextStyle(backgroundColor: Color(0xfff6f6ae), color: Color(0xff3e5915)),
   'keyword': TextStyle(color: Color(0xff005599), fontWeight: FontWeight.bold),

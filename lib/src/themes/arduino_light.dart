@@ -2,7 +2,7 @@
 
 import 'package:flutter/painting.dart';
 
-const arduinoLightTheme = {
+const Map<String, TextStyle> arduinoLightTheme = {
   'root':
       TextStyle(backgroundColor: Color(0xffFFFFFF), color: Color(0xff434f54)),
   'subst': TextStyle(color: Color(0xff434f54)),

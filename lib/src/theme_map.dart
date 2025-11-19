@@ -2,6 +2,8 @@
 /// This file contains theme definitions and mappings for the FlutterCodeView widget.
 library;
 
+import 'package:flutter/painting.dart';
+
 import 'themes/a11y_dark.dart';
 import 'themes/a11y_light.dart';
 import 'themes/agate.dart';
@@ -286,7 +288,7 @@ enum ThemeType {
 ///
 /// This map associates each ThemeType enum value with its corresponding theme definition.
 /// The theme definitions are used to style the syntax highlighting in the FlutterCodeView widget.
-const themeMap = {
+const Map<ThemeType, Map<String, TextStyle>> themeMap = {
   ThemeType.a11yDark: a11yDarkTheme,
   ThemeType.a11yLight: a11yLightTheme,
   ThemeType.agate: agateTheme,

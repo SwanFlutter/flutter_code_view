@@ -2,7 +2,7 @@
 
 import 'package:flutter/painting.dart';
 
-const gradientDarkTheme = {
+const Map<String, TextStyle> gradientDarkTheme = {
   'root': TextStyle(color: Color(0xffe7e4eb)),
   'subtr': TextStyle(color: Color(0xffe7e4eb)),
   'doctag': TextStyle(color: Color(0xffaf8dd9)),

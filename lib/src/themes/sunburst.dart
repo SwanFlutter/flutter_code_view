@@ -2,7 +2,7 @@
 
 import 'package:flutter/painting.dart';
 
-const sunburstTheme = {
+const Map<String, TextStyle> sunburstTheme = {
   'root':
       TextStyle(backgroundColor: Color(0xff000000), color: Color(0xfff8f8f8)),
   'comment': TextStyle(color: Color(0xffaeaeae), fontStyle: FontStyle.italic),

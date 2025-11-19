@@ -2,7 +2,7 @@
 
 import 'package:flutter/painting.dart';
 
-const darkTheme = {
+const Map<String, TextStyle> darkTheme = {
   'root':
       TextStyle(backgroundColor: Color(0xff444444), color: Color(0xffdddddd)),
   'keyword': TextStyle(color: Color(0xffffffff), fontWeight: FontWeight.bold),

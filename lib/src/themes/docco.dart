@@ -2,7 +2,7 @@
 
 import 'package:flutter/painting.dart';
 
-const doccoTheme = {
+const Map<String, TextStyle> doccoTheme = {
   'root':
       TextStyle(color: Color(0xff000000), backgroundColor: Color(0xfff8f8ff)),
   'comment': TextStyle(color: Color(0xff408080), fontStyle: FontStyle.italic),

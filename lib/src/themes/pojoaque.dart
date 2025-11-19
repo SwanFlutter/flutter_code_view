@@ -2,7 +2,7 @@
 
 import 'package:flutter/painting.dart';
 
-const pojoaqueTheme = {
+const Map<String, TextStyle> pojoaqueTheme = {
   'root':
       TextStyle(color: Color(0xffdccf8f), backgroundColor: Color(0xff181914)),
   'comment': TextStyle(color: Color(0xff586e75), fontStyle: FontStyle.italic),

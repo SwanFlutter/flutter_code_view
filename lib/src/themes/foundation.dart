@@ -2,7 +2,7 @@
 
 import 'package:flutter/painting.dart';
 
-const foundationTheme = {
+const Map<String, TextStyle> foundationTheme = {
   'root':
       TextStyle(backgroundColor: Color(0xffeeeeee), color: Color(0xff000000)),
   'link': TextStyle(color: Color(0xff007700)),

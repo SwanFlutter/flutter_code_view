@@ -2,7 +2,7 @@
 
 import 'package:flutter/painting.dart';
 
-const hybridTheme = {
+const Map<String, TextStyle> hybridTheme = {
   'root':
       TextStyle(backgroundColor: Color(0xff1d1f21), color: Color(0xffc5c8c6)),
   '.hljs::selection': TextStyle(backgroundColor: Color(0xff373b41)),

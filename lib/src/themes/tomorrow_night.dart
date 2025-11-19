@@ -2,7 +2,7 @@
 
 import 'package:flutter/painting.dart';
 
-const tomorrowNightTheme = {
+const Map<String, TextStyle> tomorrowNightTheme = {
   'comment': TextStyle(color: Color(0xff969896)),
   'quote': TextStyle(color: Color(0xff969896)),
   'variable': TextStyle(color: Color(0xffcc6666)),

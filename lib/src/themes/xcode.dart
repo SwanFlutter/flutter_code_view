@@ -2,7 +2,7 @@
 
 import 'package:flutter/painting.dart';
 
-const xcodeTheme = {
+const Map<String, TextStyle> xcodeTheme = {
   'root':
       TextStyle(backgroundColor: Color(0xffffffff), color: Color(0xff000000)),
   'comment': TextStyle(color: Color(0xff007400)),

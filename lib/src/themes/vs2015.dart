@@ -2,7 +2,7 @@
 
 import 'package:flutter/painting.dart';
 
-const vs2015Theme = {
+const Map<String, TextStyle> vs2015Theme = {
   'root':
       TextStyle(backgroundColor: Color(0xff1E1E1E), color: Color(0xffDCDCDC)),
   'keyword': TextStyle(color: Color(0xff569CD6)),

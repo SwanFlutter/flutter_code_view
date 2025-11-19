@@ -7,7 +7,7 @@ import 'package:flutter/painting.dart';
 /// This theme is designed for accessibility with a light background and
 /// high contrast colors to improve readability for users with visual impairments.
 /// It follows the a11y (accessibility) guidelines for color contrast.
-const a11yLightTheme = {
+const Map<String, TextStyle> a11yLightTheme = {
   'comment': TextStyle(color: Color(0xff696969)),
   'quote': TextStyle(color: Color(0xff696969)),
   'variable': TextStyle(color: Color(0xffd91e18)),

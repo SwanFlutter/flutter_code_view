@@ -2,7 +2,7 @@
 
 import 'package:flutter/painting.dart';
 
-const gmlTheme = {
+const Map<String, TextStyle> gmlTheme = {
   'root':
       TextStyle(backgroundColor: Color(0xff222222), color: Color(0xffC0C0C0)),
   'keyword': TextStyle(color: Color(0xffFFB871), fontWeight: FontWeight.bold),

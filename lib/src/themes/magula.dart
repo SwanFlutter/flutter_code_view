@@ -2,7 +2,7 @@
 
 import 'package:flutter/painting.dart';
 
-const magulaTheme = {
+const Map<String, TextStyle> magulaTheme = {
   'root':
       TextStyle(backgroundColor: Color(0xfff4f4f4), color: Color(0xff000000)),
   'subst': TextStyle(color: Color(0xff000000)),

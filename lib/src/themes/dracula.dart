@@ -2,7 +2,7 @@
 
 import 'package:flutter/painting.dart';
 
-const draculaTheme = {
+const Map<String, TextStyle> draculaTheme = {
   'root':
       TextStyle(backgroundColor: Color(0xff282a36), color: Color(0xfff8f8f2)),
   'keyword': TextStyle(color: Color(0xff8be9fd), fontWeight: FontWeight.bold),

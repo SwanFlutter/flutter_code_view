@@ -2,7 +2,7 @@
 
 import 'package:flutter/painting.dart';
 
-const darculaTheme = {
+const Map<String, TextStyle> darculaTheme = {
   'root':
       TextStyle(backgroundColor: Color(0xff2b2b2b), color: Color(0xffbababa)),
   'strong': TextStyle(color: Color(0xffa8a8a2)),

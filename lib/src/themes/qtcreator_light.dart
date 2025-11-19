@@ -2,7 +2,7 @@
 
 import 'package:flutter/painting.dart';
 
-const qtcreatorLightTheme = {
+const Map<String, TextStyle> qtcreatorLightTheme = {
   'root':
       TextStyle(backgroundColor: Color(0xffffffff), color: Color(0xff000000)),
   'subst': TextStyle(color: Color(0xff000000)),
