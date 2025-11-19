@@ -13,10 +13,10 @@ packages:
     dependency: transitive
     description:
       name: base_cod_view
-      sha256: e1c7267e5548a67c2b9c8491062b6030007cb0b90833de511b1022212daf19ff
+      sha256: d34a69dc814617ae765551de398cc4faaf47a7f5d705b176073143a1c7a3d45e
       url: "https://pub.dev"
     source: hosted
-    version: "0.0.3"
+    version: "0.0.6"
   boolean_selector:
     dependency: transitive
     description:
@@ -76,7 +76,7 @@ packages:
       path: ".."
       relative: true
     source: path
-    version: "0.0.4"
+    version: "0.0.3"
   flutter_lints:
     dependency: "direct dev"
     description:
